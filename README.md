@@ -1,4 +1,4 @@
-# Azure Text Embedding Model Recommendations - Overview 
+# Azure Text Embedding Model - Overview 
 
 Costa Rica
 

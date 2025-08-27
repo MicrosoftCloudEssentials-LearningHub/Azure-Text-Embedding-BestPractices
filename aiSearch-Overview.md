@@ -1,4 +1,4 @@
-#  RAG (Retrieval-Augmented Generation) pattern - Overview 
+#  Azure AI Search - Overview 
 
 Costa Rica
 
