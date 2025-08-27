@@ -1,4 +1,4 @@
-# Azure Infrastructure: <br/>  AI Agent - Terraform Templates 
+# Azure Infrastructure - Terraform templates for deployment 
 
 Costa Rica
 
