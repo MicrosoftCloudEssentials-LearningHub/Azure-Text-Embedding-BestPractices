@@ -21,6 +21,12 @@ Last updated: 2025-08-20
 <details>
 <summary><b>Table of Contents</b> (Click to expand)</summary>
 
+- [Recommendations for Alternative & Upcoming Embedding Models in Azure](#recommendations-for-alternative--upcoming-embedding-models-in-azure)
+    - [Azure OpenAI](#azure-openai)
+    - [Azure AI Foundry](#azure-ai-foundry)
+    - [Azure Marketplace](#azure-marketplace)
+- [How Azure AI Search Can Help Optimize Embedding Performance](#how-azure-ai-search-can-help-optimize-embedding-performance)
+
 </details>
 
 
@@ -46,7 +52,8 @@ Last updated: 2025-08-20
 > `Upcoming Models to Watch:`
 - **Voyage-3-Large**: Expected to outperform OpenAI v3-large with flexible dimensions and quantization. [voyage-3-large: the new state-of-the-art general-purpose embedding model](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/2/atp-safelinks.html)
 
-> Azure OpenAI
+### Azure OpenAI
+
 > - `text-embedding-ada-002`
 > - `text-embedding-3-large`
 > - `text-embedding-3-small`
@@ -61,7 +68,8 @@ Last updated: 2025-08-20
 
      <img width="1893" height="695" alt="image" src="https://github.com/user-attachments/assets/8d822c1d-04fd-49ba-a514-1a3f74e24cdc" />
 
-> Azure AI Foundry
+### Azure AI Foundry
+
 > - `embed-v-4-0`
 > - `Cohere-embed-v3-multilingual`
 > - `Cohere-embed-v3-english`
@@ -76,6 +84,8 @@ Last updated: 2025-08-20
 2. Under `Model catalog`, filter by `Inference task` > `Embeddings`:
 
     <img width="1907" height="847" alt="image" src="https://github.com/user-attachments/assets/45b1676c-8c5b-4084-be19-4eeb56e8f961" />
+
+### Azure Marketplace
 
 > [Azure Marketplace](https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=embedding&page=1):
 > - `voyage-3 Embedding Model`
@@ -103,7 +113,8 @@ Last updated: 2025-08-20
 - Handles **large-scale indexing** and **low-latency retrieval**, ideal for enterprise-grade applications with millions of documents.
 - Integrates with **hybrid search pipelines**, combining vector and keyword search to improve both precision and recall.
 
-**Example Use Cases**:
+> Example Use Cases:
+
 - Intelligent document retrieval for legal or financial archives.
 - FAQ matching and chatbot grounding using semantic similarity.
 - Product recommendation systems based on user intent embeddings.
@@ -118,7 +129,7 @@ Last updated: 2025-08-20
 1. **Choose embedding size wisely**: Smaller embeddings (e.g., 512–1024) reduce latency and storage costs, ideal for mobile or real-time apps.
 2. **Batch embedding generation**: Pre-process documents in bulk to reduce API calls and improve throughput.
 3. **Use domain-specific models**: Models like `voyage-finance-2` or `voyage-law-2` yield better semantic relevance in specialized contexts.
-4. **Monitor vector DB costs**: Larger embeddings increase storage and query costs—balance precision with efficiency.
+4. **Monitor vector DB costs**: Larger embeddings increase storage and query costs, balance precision with efficiency.
 5. **Leverage hybrid search**: Combine keyword and vector search to handle both exact and fuzzy matches, especially in noisy datasets.
 6. **Normalize and deduplicate embeddings**: Ensure consistent vector quality and avoid redundant indexing.
 
@@ -134,7 +145,8 @@ Last updated: 2025-08-20
 - **Query using embedded vectors** to perform semantic matching, enabling intelligent document retrieval, contextual search, and RAG workflows.
 - **Automate updates**: Use Azure Functions or Logic Apps to refresh embeddings when documents change, keeping your index up-to-date.
 
-**Example Workflow**:
+> Example Workflow:
+
 1. Use `text-embedding-3-large` to embed support tickets.
 2. Store vectors in Azure AI Search.
 3. Query with user questions to retrieve semantically similar tickets.
