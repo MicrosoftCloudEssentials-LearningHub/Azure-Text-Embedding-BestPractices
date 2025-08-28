@@ -20,6 +20,7 @@ Last updated: 2025-08-27
 -  [Massive Text Embedding Benchmark](https://github.com/embeddings-benchmark/mteb) - open source how it was created
 -  [Model leaderboards in Azure AI Foundry portal (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-benchmarks)
 -  [Find the best model by comparing model performance across various criteria](https://ai.azure.com/explore/models/leaderboard?tid=cc34547a-d117-4060-9c6e-1c8d622c8d02)
+-  [Chunk large documents for vector search solutions in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/vector-search-how-to-chunk-documents)
 
 </details>
 
