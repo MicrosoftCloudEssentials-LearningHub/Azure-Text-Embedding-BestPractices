@@ -16,6 +16,8 @@ Last updated: 2025-08-27
 -  [voyage-3-large: the new state-of-the-art general-purpose embedding model](https://statics.teams.cdn.office.net/evergreen-assets/safelinks/2/atp-safelinks.html)
 -  [text-embedding-3-large](https://platform.openai.com/docs/models/text-embedding-3-large#:~:text=text-embedding-3-large%20is%20our%20most%20capable%20embedding,english%20and%20non-english%20tasks.)
 -  [Embedding Leaderboard](https://huggingface.co/spaces/mteb/leaderboard)
+-  [The Legacy MTEB Leaderboard repository](https://github.com/embeddings-benchmark/leaderboard?tab=readme-ov-file) - explanation and relevant links 
+-  [Massive Text Embedding Benchmark](https://github.com/embeddings-benchmark/mteb) - open source how it was created
 -  [Model leaderboards in Azure AI Foundry portal (preview)](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/model-benchmarks)
 -  [Find the best model by comparing model performance across various criteria](https://ai.azure.com/explore/models/leaderboard?tid=cc34547a-d117-4060-9c6e-1c8d622c8d02)
 
